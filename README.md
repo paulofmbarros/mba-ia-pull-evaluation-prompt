@@ -104,7 +104,7 @@ O script `src/evaluate.py` cria ou reutiliza o dataset `MBA_Evaluation_Prompt-ev
 
 ### Screenshots das Avaliações
 
-Anexar os screenshots gerados no LangSmith antes da entrega final:
+Screenshots gerados no LangSmith:
 
 | Evidencia | Screenshot sugerido | O que deve estar visivel |
 | --- | --- | --- |
@@ -114,15 +114,25 @@ Anexar os screenshots gerados no LangSmith antes da entrega final:
 | Trace exemplo 2 | `docs/langsmith/trace-exemplo-2.png` | Entrada, prompt renderizado, resposta e metricas |
 | Trace exemplo 3 | `docs/langsmith/trace-exemplo-3.png` | Entrada, prompt renderizado, resposta e metricas |
 
-Markdown para incluir os arquivos quando os screenshots forem salvos no repositorio:
+#### Dataset com 15 exemplos
 
-```markdown
 ![Dataset com 15 exemplos](docs/langsmith/dataset-15-exemplos.png)
+
+#### Avaliação v2 com métricas >= 0.8
+
 ![Avaliacao v2 com metricas >= 0.8](docs/langsmith/avaliacao-v2-metricas.png)
+
+#### Trace detalhado - exemplo 1
+
 ![Trace detalhado - exemplo 1](docs/langsmith/trace-exemplo-1.png)
+
+#### Trace detalhado - exemplo 2
+
 ![Trace detalhado - exemplo 2](docs/langsmith/trace-exemplo-2.png)
+
+#### Trace detalhado - exemplo 3
+
 ![Trace detalhado - exemplo 3](docs/langsmith/trace-exemplo-3.png)
-```
 
 ### Tabela Comparativa: v1 vs v2
 
